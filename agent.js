@@ -1,3 +1,3 @@
 class Agent{
 
-  constructor(n
+  constructor(name, eps=0.05,
