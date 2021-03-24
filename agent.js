@@ -1,1 +1,3 @@
 class Agent{
+
+  constructor(n
