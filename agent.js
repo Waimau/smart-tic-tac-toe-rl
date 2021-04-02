@@ -3,4 +3,4 @@ class Agent{
   constructor(name, eps=0.05, alpha=0.5) {
     this.eps = eps; // probability of choosing random action instead of greedy
     this.alpha = alpha; // learning rate
-    th
+    this.state_his
