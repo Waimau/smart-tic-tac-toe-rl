@@ -4,4 +4,4 @@ class Agent{
     this.eps = eps; // probability of choosing random action instead of greedy
     this.alpha = alpha; // learning rate
     this.state_history = [];
-    th
+    this.name = name;
