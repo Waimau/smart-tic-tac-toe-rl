@@ -5,3 +5,5 @@ class Agent{
     this.alpha = alpha; // learning rate
     this.state_history = [];
     this.name = name;
+    this.V = [];
+    
