@@ -6,4 +6,5 @@ class Agent{
     this.state_history = [];
     this.name = name;
     this.V = [];
-    this.skill_lev
+    this.skill_level = 0;
+  }
