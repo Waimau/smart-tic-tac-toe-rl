@@ -9,4 +9,5 @@ class Agent{
     this.skill_level = 0;
   }
 
-  set_v(V
+  set_v(V){
+    this.V =
