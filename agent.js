@@ -10,4 +10,7 @@ class Agent{
   }
 
   set_v(V){
-    this.V =
+    this.V = V;
+  }
+
+  se
