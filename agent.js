@@ -13,4 +13,5 @@ class Agent{
     this.V = V;
   }
 
-  set_skilllevel
+  set_skilllevel(v){
+    
