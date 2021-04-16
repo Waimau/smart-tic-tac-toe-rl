@@ -14,4 +14,4 @@ class Agent{
   }
 
   set_skilllevel(v){
-    this.skill_
+    this.skill_level = v;
