@@ -17,4 +17,5 @@ class Agent{
     this.skill_level = v;
   }
 
-  set_
+  set_eps(v){
+    this.
