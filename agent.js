@@ -18,4 +18,7 @@ class Agent{
   }
 
   set_eps(v){
-    this.
+    this.eps = v;
+  }
+
+  
