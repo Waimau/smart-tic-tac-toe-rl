@@ -21,4 +21,4 @@ class Agent{
     this.eps = v;
   }
 
-  
+  take_action(
