@@ -15,3 +15,6 @@ class Agent{
 
   set_skilllevel(v){
     this.skill_level = v;
+  }
+
+  set_
