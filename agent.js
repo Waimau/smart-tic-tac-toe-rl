@@ -21,4 +21,6 @@ class Agent{
     this.eps = v;
   }
 
-  take_action(env, return_computation=f
+  take_action(env, return_computation=false){
+
+    let
