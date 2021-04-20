@@ -23,4 +23,5 @@ class Agent{
 
   take_action(env, return_computation=false){
 
-    let next_move = 
+    let next_move = -1;
+    let debug_m
