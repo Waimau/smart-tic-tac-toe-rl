@@ -25,4 +25,6 @@ class Agent{
 
     let next_move = -1;
     let debug_moves = [];
-    let strategy =
+    let strategy = "exploit";
+
+    
