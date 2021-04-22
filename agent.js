@@ -28,4 +28,5 @@ class Agent{
     let strategy = "exploit";
 
     if(Math.random()<this.eps){
-      str
+      strategy = "explore";
+
