@@ -27,4 +27,5 @@ class Agent{
     let debug_moves = [];
     let strategy = "exploit";
 
-    if(Math.random()<this.e
+    if(Math.random()<this.eps){
+      str
