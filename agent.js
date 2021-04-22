@@ -31,4 +31,4 @@ class Agent{
       strategy = "explore";
 
       let possible_moves = [];
-      for(let i
+      for(let i=0;i<env.board.
