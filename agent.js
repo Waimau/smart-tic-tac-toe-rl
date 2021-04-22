@@ -27,4 +27,4 @@ class Agent{
     let debug_moves = [];
     let strategy = "exploit";
 
-    
+    if(Math.ra
