@@ -30,3 +30,4 @@ class Agent{
     if(Math.random()<this.eps){
       strategy = "explore";
 
+      let
