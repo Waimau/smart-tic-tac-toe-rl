@@ -30,4 +30,5 @@ class Agent{
     if(Math.random()<this.eps){
       strategy = "explore";
 
-      let possible_move
+      let possible_moves = [];
+   
