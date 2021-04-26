@@ -32,4 +32,4 @@ class Agent{
 
       let possible_moves = [];
       for(let i=0;i<env.board.length;i++){
-  
+        if(env.boar
