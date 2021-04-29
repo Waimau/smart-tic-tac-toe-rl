@@ -33,4 +33,6 @@ class Agent{
       let possible_moves = [];
       for(let i=0;i<env.board.length;i++){
         if(env.board[i]==0){
-          possible_moves.push(
+          possible_moves.push(i);
+        }
+      }
