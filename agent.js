@@ -36,3 +36,5 @@ class Agent{
           possible_moves.push(i);
         }
       }
+
+      next_move
