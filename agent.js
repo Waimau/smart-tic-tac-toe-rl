@@ -37,4 +37,4 @@ class Agent{
         }
       }
 
-      next_move
+      next_move = possible_
