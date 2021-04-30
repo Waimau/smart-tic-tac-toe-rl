@@ -37,4 +37,4 @@ class Agent{
         }
       }
 
-      next_move = possible_
+      next_move = possible_moves[Math.floo
