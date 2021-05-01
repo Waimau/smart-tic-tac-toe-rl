@@ -37,4 +37,4 @@ class Agent{
         }
       }
 
-      next_move = possible_moves[Math.floo
+      next_move = possible_moves[Math.floor(Math.rando
