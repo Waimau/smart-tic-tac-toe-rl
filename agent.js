@@ -40,4 +40,5 @@ class Agent{
       next_move = possible_moves[Math.floor(Math.random()*possible_moves.length)];
 
     }else{
-      let bes
+      let best_value = -1;
+      
