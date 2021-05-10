@@ -41,4 +41,6 @@ class Agent{
 
     }else{
       let best_value = -1;
-      let best_
+      let best_state = -1;
+
+     
