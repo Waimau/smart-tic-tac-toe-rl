@@ -43,4 +43,4 @@ class Agent{
       let best_value = -1;
       let best_state = -1;
 
-      for(let i=0;
+      for(let i=0;i<env.board_le
