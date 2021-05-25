@@ -44,4 +44,4 @@ class Agent{
       let best_state = -1;
 
       for(let i=0;i<env.board_length*env.board_length;i++){
-        if(env
+        if(env.board[i]==
