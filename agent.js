@@ -46,4 +46,5 @@ class Agent{
       for(let i=0;i<env.board_length*env.board_length;i++){
         if(env.board[i]==0){
 
-          env.board[i] = this.nam
+          env.board[i] = this.name;
+    
