@@ -48,4 +48,4 @@ class Agent{
 
           env.board[i] = this.name;
           let state = env.get_state();
-  
+          env.boar
