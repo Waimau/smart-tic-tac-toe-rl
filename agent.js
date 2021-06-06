@@ -47,4 +47,5 @@ class Agent{
         if(env.board[i]==0){
 
           env.board[i] = this.name;
-          let state = env.g
+          let state = env.get_state();
+  
