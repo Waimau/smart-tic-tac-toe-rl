@@ -50,4 +50,4 @@ class Agent{
           let state = env.get_state();
           env.board[i] = 0;
 
-          debug_m
+          debug_moves.push([i
