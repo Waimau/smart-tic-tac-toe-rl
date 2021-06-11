@@ -52,4 +52,5 @@ class Agent{
 
           debug_moves.push([i, state, this.V[state]]);
 
-          if(this.V[state] > best_value)
+          if(this.V[state] > best_value){
+            bes
