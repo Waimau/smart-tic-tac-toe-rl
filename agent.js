@@ -52,4 +52,4 @@ class Agent{
 
           debug_moves.push([i, state, this.V[state]]);
 
- 
+          if(t
