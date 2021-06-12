@@ -54,4 +54,5 @@ class Agent{
 
           if(this.V[state] > best_value){
             best_value = this.V[state];
-            best_state = sta
+            best_state = state;
+           
