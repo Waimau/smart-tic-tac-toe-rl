@@ -56,4 +56,6 @@ class Agent{
             best_value = this.V[state];
             best_state = state;
             next_move = i;
-  
+          }
+
+      
