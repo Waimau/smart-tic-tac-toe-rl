@@ -58,4 +58,7 @@ class Agent{
             next_move = i;
           }
 
-      
+        }
+      }
+
+ 
