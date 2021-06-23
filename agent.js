@@ -64,4 +64,5 @@ class Agent{
     }
 
     if(return_computation){
-      return [next_move, strategy, deb
+      return [next_move, strategy, debug_moves];
+    
