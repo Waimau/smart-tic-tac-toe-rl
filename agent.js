@@ -67,3 +67,8 @@ class Agent{
       return [next_move, strategy, debug_moves];
     }else{
       return next_move;
+    }
+
+  }
+
+  u
