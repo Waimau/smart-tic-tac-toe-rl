@@ -71,4 +71,4 @@ class Agent{
 
   }
 
-  u
+  update_state_his
