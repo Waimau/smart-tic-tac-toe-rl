@@ -71,4 +71,5 @@ class Agent{
 
   }
 
-  update_state_his
+  update_state_history(state){
+    this
