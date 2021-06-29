@@ -72,4 +72,4 @@ class Agent{
   }
 
   update_state_history(state){
-    this
+    this.state_history.p
