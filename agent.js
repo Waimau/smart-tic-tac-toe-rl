@@ -72,4 +72,7 @@ class Agent{
   }
 
   update_state_history(state){
-    this.state_history.push(this.copy_obj(state
+    this.state_history.push(this.copy_obj(state));
+  }
+
+  upd
