@@ -76,4 +76,4 @@ class Agent{
   }
 
   update(env){
-    let reward = env
+    let reward = env.get_re
