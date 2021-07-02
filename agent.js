@@ -75,4 +75,5 @@ class Agent{
     this.state_history.push(this.copy_obj(state));
   }
 
-  upd
+  update(env){
+    let
