@@ -79,4 +79,5 @@ class Agent{
     let reward = env.get_reward(this.name);
     let target = this.copy_obj(reward);
 
-    for(let i=this.state_history.length-1;i>=0;i-
+    for(let i=this.state_history.length-1;i>=0;i--){
+     
