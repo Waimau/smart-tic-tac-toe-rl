@@ -80,4 +80,5 @@ class Agent{
     let target = this.copy_obj(reward);
 
     for(let i=this.state_history.length-1;i>=0;i--){
-      let prev = this.sta
+      let prev = this.state_history[i];
+      let 
