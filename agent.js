@@ -83,4 +83,4 @@ class Agent{
       let prev = this.state_history[i];
       let value = this.V[prev] + this.alpha*(target - this.V[prev]);
       this.V[prev] = value;
-      // console.log(
+      // console.log(this.name, pre
