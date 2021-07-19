@@ -81,4 +81,4 @@ class Agent{
 
     for(let i=this.state_history.length-1;i>=0;i--){
       let prev = this.state_history[i];
-      let value = this.V[prev
+      let value = this.V[prev] + this.alpha
