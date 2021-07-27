@@ -84,4 +84,6 @@ class Agent{
       let value = this.V[prev] + this.alpha*(target - this.V[prev]);
       this.V[prev] = value;
       // console.log(this.name, prev, this.V[prev]);
-      target = this.copy_obj(val
+      target = this.copy_obj(value);
+    }
+    
