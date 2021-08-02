@@ -86,4 +86,5 @@ class Agent{
       // console.log(this.name, prev, this.V[prev]);
       target = this.copy_obj(value);
     }
-    this.reset_his
+    this.reset_history();
+ 
