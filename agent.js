@@ -87,4 +87,6 @@ class Agent{
       target = this.copy_obj(value);
     }
     this.reset_history();
- 
+  }
+
+  reset_h
