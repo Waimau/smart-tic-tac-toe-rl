@@ -89,4 +89,5 @@ class Agent{
     this.reset_history();
   }
 
-  reset_h
+  reset_history(){
+    this.st
