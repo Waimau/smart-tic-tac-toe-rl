@@ -90,4 +90,4 @@ class Agent{
   }
 
   reset_history(){
-    this.st
+    this.state_history =
