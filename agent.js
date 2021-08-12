@@ -93,4 +93,5 @@ class Agent{
     this.state_history = [];
   }
 
-  copy_obj(o
+  copy_obj(obj) {
+    retu
