@@ -92,3 +92,5 @@ class Agent{
   reset_history(){
     this.state_history = [];
   }
+
+  copy_obj(o
