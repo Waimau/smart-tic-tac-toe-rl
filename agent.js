@@ -90,4 +90,5 @@ class Agent{
   }
 
   reset_history(){
-    this.state_history =
+    this.state_history = [];
+  }
