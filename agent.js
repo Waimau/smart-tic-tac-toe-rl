@@ -94,4 +94,4 @@ class Agent{
   }
 
   copy_obj(obj) {
-    retu
+    return JSON.pars
