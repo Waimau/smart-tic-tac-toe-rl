@@ -94,4 +94,6 @@ class Agent{
   }
 
   copy_obj(obj) {
-    return JSON.parse(JSON.string
+    return JSON.parse(JSON.stringify(obj));
+  }
+
