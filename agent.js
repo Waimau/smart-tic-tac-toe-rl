@@ -94,4 +94,4 @@ class Agent{
   }
 
   copy_obj(obj) {
-    return JSON.pars
+    return JSON.parse(JSON.string
