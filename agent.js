@@ -97,3 +97,4 @@ class Agent{
     return JSON.parse(JSON.stringify(obj));
   }
 
+}
