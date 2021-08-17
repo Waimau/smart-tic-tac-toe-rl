@@ -1,4 +1,4 @@
 
 class Environment{
 
-  constructor(
+  constructor(board_length)
