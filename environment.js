@@ -2,4 +2,5 @@
 class Environment{
 
   constructor(board_length){
-    this.bo
+    this.board = [];
+    thi
