@@ -6,4 +6,4 @@ class Environment{
     this.board_length = board_length;
     this.p1 = 1;
     this.p2 = -1;
-    thi
+    this.winner = 0;
