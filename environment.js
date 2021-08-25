@@ -8,4 +8,4 @@ class Environment{
     this.p2 = -1;
     this.winner = 0;
     this.ended = false;
-    t
+    this.num_st
