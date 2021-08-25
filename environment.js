@@ -7,4 +7,5 @@ class Environment{
     this.p1 = 1;
     this.p2 = -1;
     this.winner = 0;
-    this.ended = 
+    this.ended = false;
+    t
