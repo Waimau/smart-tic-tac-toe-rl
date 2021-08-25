@@ -8,4 +8,4 @@ class Environment{
     this.p2 = -1;
     this.winner = 0;
     this.ended = false;
-    this.num_states = Math.pow(3,t
+    this.num_states = Math.pow(3,this.board_length*
