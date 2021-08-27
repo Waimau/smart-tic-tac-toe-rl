@@ -10,3 +10,5 @@ class Environment{
     this.ended = false;
     this.num_states = Math.pow(3,this.board_length*this.board_length);
     this.player_turn = 1;
+
+    for(let i=0;i<Ma
