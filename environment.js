@@ -12,3 +12,4 @@ class Environment{
     this.player_turn = 1;
 
     for(let i=0;i<Math.pow(this.board_length,2);i++){
+      this.board
