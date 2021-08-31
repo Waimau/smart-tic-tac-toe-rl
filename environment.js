@@ -17,4 +17,6 @@ class Environment{
   }
 
   get_cell(i, j){
-    return parseInt(this.board[(j*this.board_length)+i
+    return parseInt(this.board[(j*this.board_length)+i]);
+  }
+
