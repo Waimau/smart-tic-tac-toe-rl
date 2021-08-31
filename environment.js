@@ -20,3 +20,4 @@ class Environment{
     return parseInt(this.board[(j*this.board_length)+i]);
   }
 
+  set_cell(i, 
