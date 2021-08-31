@@ -17,4 +17,4 @@ class Environment{
   }
 
   get_cell(i, j){
-    return parseInt(this.board[(
+    return parseInt(this.board[(j*this.board_
