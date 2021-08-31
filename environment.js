@@ -16,4 +16,5 @@ class Environment{
     }
   }
 
-  get_cel
+  get_cell(i, j){
+    ret
