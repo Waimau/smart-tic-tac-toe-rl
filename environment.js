@@ -21,4 +21,5 @@ class Environment{
   }
 
   set_cell(i, j, value){
-    // console.log(i, j, v
+    // console.log(i, j, value);
+    this.bo
