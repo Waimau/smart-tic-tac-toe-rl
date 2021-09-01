@@ -21,4 +21,4 @@ class Environment{
   }
 
   set_cell(i, j, value){
-    // consol
+    // console.log(i, j, v
