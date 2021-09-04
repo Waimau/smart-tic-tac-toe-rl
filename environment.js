@@ -22,4 +22,4 @@ class Environment{
 
   set_cell(i, j, value){
     // console.log(i, j, value);
-    this.board[(j*this
+    this.board[(j*this.board_length)+i] = 
