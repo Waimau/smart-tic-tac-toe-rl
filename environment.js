@@ -22,4 +22,5 @@ class Environment{
 
   set_cell(i, j, value){
     // console.log(i, j, value);
-    this.board[(j*this.board_length)+i] = parseInt(val
+    this.board[(j*this.board_length)+i] = parseInt(value);
+  }
