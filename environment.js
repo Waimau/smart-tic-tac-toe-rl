@@ -24,3 +24,5 @@ class Environment{
     // console.log(i, j, value);
     this.board[(j*this.board_length)+i] = parseInt(value);
   }
+
+  cell_is_empty
