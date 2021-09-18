@@ -25,4 +25,5 @@ class Environment{
     this.board[(j*this.board_length)+i] = parseInt(value);
   }
 
-  cell_is_empty
+  cell_is_empty(i, j){
+    return 
