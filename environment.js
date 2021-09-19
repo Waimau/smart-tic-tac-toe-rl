@@ -26,4 +26,4 @@ class Environment{
   }
 
   cell_is_empty(i, j){
-    return 
+    return this.get_cel
