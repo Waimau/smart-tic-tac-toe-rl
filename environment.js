@@ -27,3 +27,6 @@ class Environment{
 
   cell_is_empty(i, j){
     return this.get_cell(i, j) == 0;
+  }
+
+  grid_select(i
