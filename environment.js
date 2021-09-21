@@ -29,4 +29,6 @@ class Environment{
     return this.get_cell(i, j) == 0;
   }
 
-  grid_select(index, show
+  grid_select(index, show_ui=true){
+
+   
