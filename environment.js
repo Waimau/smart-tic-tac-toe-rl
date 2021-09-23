@@ -34,3 +34,5 @@ class Environment{
     if(this.board[index] != 0){
       return false;
     }
+
+    this.board[
