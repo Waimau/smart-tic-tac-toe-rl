@@ -32,4 +32,4 @@ class Environment{
   grid_select(index, show_ui=true){
 
     if(this.board[index] != 0){
-    
+      return 
