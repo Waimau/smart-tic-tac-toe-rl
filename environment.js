@@ -37,4 +37,5 @@ class Environment{
 
     this.board[index] = this.player_turn;
 
-    if
+    if(show_ui){
+  
