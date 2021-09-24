@@ -35,4 +35,4 @@ class Environment{
       return false;
     }
 
-    this.board[
+    this.board[index] = this.play
