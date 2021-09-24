@@ -35,4 +35,6 @@ class Environment{
       return false;
     }
 
-    this.board[index] = this.play
+    this.board[index] = this.player_turn;
+
+    if
