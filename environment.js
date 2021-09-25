@@ -40,3 +40,4 @@ class Environment{
     if(show_ui){
       let thisid = "#btn_ttt_click"+index.toString();
       if(this.player_turn == 1){
+       
