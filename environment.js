@@ -38,4 +38,5 @@ class Environment{
     this.board[index] = this.player_turn;
 
     if(show_ui){
-      let thisid = "#btn_ttt_click"+index.toS
+      let thisid = "#btn_ttt_click"+index.toString();
+   
