@@ -41,4 +41,5 @@ class Environment{
       let thisid = "#btn_ttt_click"+index.toString();
       if(this.player_turn == 1){
         $(thisid).toggleClass('white red');
-        $(thisid).text(
+        $(thisid).text('O')
+      }e
