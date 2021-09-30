@@ -43,4 +43,4 @@ class Environment{
         $(thisid).toggleClass('white red');
         $(thisid).text('O')
       }else{
-        $(th
+        $(thisid).toggl
