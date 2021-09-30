@@ -42,4 +42,5 @@ class Environment{
       if(this.player_turn == 1){
         $(thisid).toggleClass('white red');
         $(thisid).text('O')
-      }e
+      }else{
+        $(th
