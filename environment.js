@@ -45,3 +45,5 @@ class Environment{
       }else{
         $(thisid).toggleClass('white green');
         $(thisid).text('X')
+      }
+    
