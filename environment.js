@@ -48,4 +48,4 @@ class Environment{
       }
     }
 
-    if(this.is
+    if(this.is_game_over()){
