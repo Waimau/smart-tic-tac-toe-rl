@@ -49,3 +49,4 @@ class Environment{
     }
 
     if(this.is_game_over()){
+      thi
