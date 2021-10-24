@@ -50,4 +50,6 @@ class Environment{
 
     if(this.is_game_over()){
       this.ended = true;
-      // console.log('game ended, winner ', this
+      // console.log('game ended, winner ', this.winner)
+
+    }el
