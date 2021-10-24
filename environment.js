@@ -53,4 +53,4 @@ class Environment{
       // console.log('game ended, winner ', this.winner)
 
     }else{
-      this.pl
+      this.player_turn = 
