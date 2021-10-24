@@ -52,4 +52,5 @@ class Environment{
       this.ended = true;
       // console.log('game ended, winner ', this.winner)
 
-    }el
+    }else{
+      this.pl
