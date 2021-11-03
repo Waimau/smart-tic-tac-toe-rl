@@ -55,3 +55,7 @@ class Environment{
     }else{
       this.player_turn = this.player_turn * -1;
     }
+
+  }
+
+  reset_
