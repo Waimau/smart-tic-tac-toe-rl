@@ -58,4 +58,4 @@ class Environment{
 
   }
 
-  reset_game(reset_player=true, sho
+  reset_game(reset_player=true, show_ui=true)
