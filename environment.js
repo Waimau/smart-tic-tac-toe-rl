@@ -60,4 +60,4 @@ class Environment{
 
   reset_game(reset_player=true, show_ui=true){
     this.winner = 0;
-    /
+    // this.bo
