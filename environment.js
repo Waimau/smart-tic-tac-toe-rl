@@ -62,4 +62,4 @@ class Environment{
     this.winner = 0;
     // this.board = [];
 
-    f
+    for(let i=0;i<
