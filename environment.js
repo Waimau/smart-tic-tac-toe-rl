@@ -58,4 +58,4 @@ class Environment{
 
   }
 
-  reset_game(reset_pla
+  reset_game(reset_player=true, sho
