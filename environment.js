@@ -62,4 +62,5 @@ class Environment{
     this.winner = 0;
     // this.board = [];
 
-    for(let i=0;i<Math.pow(this.board
+    for(let i=0;i<Math.pow(this.board_length,2);i++){
+ 
