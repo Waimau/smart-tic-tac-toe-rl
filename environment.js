@@ -65,4 +65,4 @@ class Environment{
     for(let i=0;i<Math.pow(this.board_length,2);i++){
       // this.board.push(0);
       if(show_ui){
-        let thisid = "#btn_ttt_clic
+        let thisid = "#btn_ttt_click"+i.toS
