@@ -66,4 +66,4 @@ class Environment{
       // this.board.push(0);
       if(show_ui){
         let thisid = "#btn_ttt_click"+i.toString();
-        // if(
+        // if(this.board[i] 
