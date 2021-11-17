@@ -69,4 +69,4 @@ class Environment{
         // if(this.board[i] == 1){
         //   $(thisid).toggleClass('red white');
         // }else if(this.board[i] == -1){
-       
+        //   $(thisid)
