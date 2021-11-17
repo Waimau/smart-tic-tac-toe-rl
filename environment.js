@@ -67,4 +67,4 @@ class Environment{
       if(show_ui){
         let thisid = "#btn_ttt_click"+i.toString();
         // if(this.board[i] == 1){
-        //   $(thisid).toggleCla
+        //   $(thisid).toggleClass('red white');
