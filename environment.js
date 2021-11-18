@@ -71,4 +71,4 @@ class Environment{
         // }else if(this.board[i] == -1){
         //   $(thisid).toggleClass('green white');
         // }
-      
+        $(thisid).removeCl
