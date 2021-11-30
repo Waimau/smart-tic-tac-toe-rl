@@ -72,4 +72,5 @@ class Environment{
         //   $(thisid).toggleClass('green white');
         // }
         $(thisid).removeClass("green");
-        $(thisid).removeCla
+        $(thisid).removeClass("red");
+    
