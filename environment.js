@@ -73,4 +73,4 @@ class Environment{
         // }
         $(thisid).removeClass("green");
         $(thisid).removeClass("red");
-    
+        $(thisid)
