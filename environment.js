@@ -74,4 +74,6 @@ class Environment{
         $(thisid).removeClass("green");
         $(thisid).removeClass("red");
         $(thisid).addClass("white");
-        $(thisid).text('
+        $(thisid).text('.');
+      }
+      this
