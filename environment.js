@@ -76,4 +76,4 @@ class Environment{
         $(thisid).addClass("white");
         $(thisid).text('.');
       }
-      this
+      this.board[i] = 
