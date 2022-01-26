@@ -79,4 +79,4 @@ class Environment{
       this.board[i] = 0;
     }
 
-    th
+    this.ended
