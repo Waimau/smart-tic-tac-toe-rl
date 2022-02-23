@@ -81,4 +81,5 @@ class Environment{
 
     this.ended = false;
 
-    if(reset_pla
+    if(reset_player){
+   
