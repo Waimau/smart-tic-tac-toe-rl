@@ -84,4 +84,6 @@ class Environment{
     if(reset_player){
       this.player_turn = 1;
     }
-  
+  }
+
+  get_rewar
