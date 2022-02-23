@@ -82,4 +82,4 @@ class Environment{
     this.ended = false;
 
     if(reset_player){
-      this.
+      this.player_turn = 1
