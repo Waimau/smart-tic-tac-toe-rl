@@ -86,4 +86,5 @@ class Environment{
     }
   }
 
-  get_rewar
+  get_reward(player){
+    if(
