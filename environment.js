@@ -87,4 +87,5 @@ class Environment{
   }
 
   get_reward(player){
-    if(!this.is_ga
+    if(!this.is_game_over()){
+  
