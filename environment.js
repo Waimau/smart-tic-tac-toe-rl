@@ -89,4 +89,5 @@ class Environment{
   get_reward(player){
     if(!this.is_game_over()){
       return 0;
- 
+    }
+    if(t
