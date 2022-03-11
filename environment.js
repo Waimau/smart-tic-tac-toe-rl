@@ -90,4 +90,5 @@ class Environment{
     if(!this.is_game_over()){
       return 0;
     }
-    if(this.winner =
+    if(this.winner == player){
+   
