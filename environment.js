@@ -91,4 +91,5 @@ class Environment{
       return 0;
     }
     if(this.winner == player){
-   
+      return 1;
+ 
