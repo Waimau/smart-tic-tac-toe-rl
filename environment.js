@@ -97,4 +97,5 @@ class Environment{
     }
   }
 
-  g
+  get_state(){
+    
