@@ -99,4 +99,5 @@ class Environment{
 
   get_state(){
     let v = 0;
-  
+    let k = 0;
+   
