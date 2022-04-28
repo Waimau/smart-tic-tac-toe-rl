@@ -100,4 +100,6 @@ class Environment{
   get_state(){
     let v = 0;
     let k = 0;
-    let hashnum
+    let hashnum = 0;
+
+    for
