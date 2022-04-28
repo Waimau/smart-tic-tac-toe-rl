@@ -102,4 +102,4 @@ class Environment{
     let k = 0;
     let hashnum = 0;
 
-    for
+    for(let i=0
