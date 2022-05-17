@@ -102,4 +102,5 @@ class Environment{
     let k = 0;
     let hashnum = 0;
 
-    for(let i=0;i<this.board_l
+    for(let i=0;i<this.board_length;i++){
+      
