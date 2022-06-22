@@ -104,4 +104,4 @@ class Environment{
 
     for(let i=0;i<this.board_length;i++){
       for(let j=0;j<this.board_length;j++){
-        if(thi
+        if(this.get_cell(i,j) == 
