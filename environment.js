@@ -105,4 +105,5 @@ class Environment{
     for(let i=0;i<this.board_length;i++){
       for(let j=0;j<this.board_length;j++){
         if(this.get_cell(i,j) == 0){
-          v
+          v = 0;
+        }els
