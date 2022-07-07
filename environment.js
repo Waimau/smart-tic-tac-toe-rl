@@ -106,4 +106,4 @@ class Environment{
       for(let j=0;j<this.board_length;j++){
         if(this.get_cell(i,j) == 0){
           v = 0;
-        }els
+        }else if (this.get_c
