@@ -108,3 +108,4 @@ class Environment{
           v = 0;
         }else if (this.get_cell(i,j) == this.p2){
           v = 1;
+        }e
