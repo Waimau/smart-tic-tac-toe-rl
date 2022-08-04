@@ -112,4 +112,7 @@ class Environment{
           v = 2;
         }
 
-        hashnum += Math.pow(3,k) * v
+        hashnum += Math.pow(3,k) * v;
+        k++;
+
+   
