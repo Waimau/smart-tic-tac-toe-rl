@@ -115,4 +115,4 @@ class Environment{
         hashnum += Math.pow(3,k) * v;
         k++;
 
-        // cons
+        // console.log(
