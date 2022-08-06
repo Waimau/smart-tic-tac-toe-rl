@@ -115,4 +115,5 @@ class Environment{
         hashnum += Math.pow(3,k) * v;
         k++;
 
-        // console.log(i, j, this.get_cell(i,j), v, h, 
+        // console.log(i, j, this.get_cell(i,j), v, h, k)
+      }
