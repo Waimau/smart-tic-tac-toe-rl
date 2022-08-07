@@ -118,4 +118,7 @@ class Environment{
         // console.log(i, j, this.get_cell(i,j), v, h, k)
       }
     }
-    return
+    return hashnum;
+  }
+
+  is
