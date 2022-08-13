@@ -121,4 +121,4 @@ class Environment{
     return hashnum;
   }
 
-  is
+  is_game_ov
