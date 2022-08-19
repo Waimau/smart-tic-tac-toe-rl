@@ -121,4 +121,6 @@ class Environment{
     return hashnum;
   }
 
-  is_game_over(test_board=[])
+  is_game_over(test_board=[]){
+
+    if(tes
