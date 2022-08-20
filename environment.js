@@ -123,4 +123,5 @@ class Environment{
 
   is_game_over(test_board=[]){
 
-    if(test_board.len
+    if(test_board.length==0){
+      te
