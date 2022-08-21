@@ -124,4 +124,7 @@ class Environment{
   is_game_over(test_board=[]){
 
     if(test_board.length==0){
-      test_board = this.boa
+      test_board = this.board;
+    }
+
+    
