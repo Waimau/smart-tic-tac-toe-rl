@@ -127,4 +127,4 @@ class Environment{
       test_board = this.board;
     }
 
-    for(let i=0;i<(this.board_length*this.board_lengt
+    for(let i=0;i<(this.board_length*this.board_length);i+=this.boar
