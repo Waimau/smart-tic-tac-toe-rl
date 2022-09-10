@@ -131,4 +131,5 @@ class Environment{
       let sum = 0;
       for(let j=i;j<i+this.board_length;j+=1){
         sum += test_board[j];
-      
+      }
+      if(this
