@@ -133,4 +133,4 @@ class Environment{
         sum += test_board[j];
       }
       if(this.check_if_player_won(sum)){
-        th
+        this.ended = true;
