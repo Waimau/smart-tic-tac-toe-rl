@@ -139,4 +139,5 @@ class Environment{
     }
 
     // columns
-    for(let i=0;i<this.board_length;i
+    for(let i=0;i<this.board_length;i+=1){
+      
