@@ -140,4 +140,5 @@ class Environment{
 
     // columns
     for(let i=0;i<this.board_length;i+=1){
-      let sum = 
+      let sum = 0;
+      fo
