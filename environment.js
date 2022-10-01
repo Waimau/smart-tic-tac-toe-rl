@@ -142,3 +142,4 @@ class Environment{
     for(let i=0;i<this.board_length;i+=1){
       let sum = 0;
       for(let j=i;j<i+7;j+=this.board_length){
+       
