@@ -144,4 +144,5 @@ class Environment{
       for(let j=i;j<i+7;j+=this.board_length){
         sum += test_board[j];
       }
-      if(this.check_if_play
+      if(this.check_if_player_won(sum)){
+  
