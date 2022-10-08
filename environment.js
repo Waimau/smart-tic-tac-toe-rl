@@ -146,4 +146,4 @@ class Environment{
       }
       if(this.check_if_player_won(sum)){
         this.ended = true;
-  
+        retur
