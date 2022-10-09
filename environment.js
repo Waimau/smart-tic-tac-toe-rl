@@ -151,4 +151,5 @@ class Environment{
     }
 
     // diagonals
-    
+    if(
+      this.
