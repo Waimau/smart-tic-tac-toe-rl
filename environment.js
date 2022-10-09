@@ -152,4 +152,4 @@ class Environment{
 
     // diagonals
     if(
-      this.
+      this.check_if_p
