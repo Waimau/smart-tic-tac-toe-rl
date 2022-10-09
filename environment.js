@@ -150,4 +150,5 @@ class Environment{
       }
     }
 
-    // 
+    // diagonals
+    
