@@ -152,4 +152,4 @@ class Environment{
 
     // diagonals
     if(
-      this.check_if_p
+      this.check_if_player_won(test
