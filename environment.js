@@ -153,4 +153,5 @@ class Environment{
     // diagonals
     if(
       this.check_if_player_won(test_board[0]+test_board[4]+test_board[8])
-      
+      ||
+      t
