@@ -154,4 +154,4 @@ class Environment{
     if(
       this.check_if_player_won(test_board[0]+test_board[4]+test_board[8])
       ||
-      this.check_if_player_won(test_board[2
+      this.check_if_player_won(test_board[2]+test_board[4]
