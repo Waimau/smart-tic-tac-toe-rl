@@ -156,4 +156,5 @@ class Environment{
       ||
       this.check_if_player_won(test_board[2]+test_board[4]+test_board[6])
     ){
-      this.en
+      this.ended = true;
+ 
