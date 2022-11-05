@@ -160,4 +160,4 @@ class Environment{
       return true;
     }
 
-    let 
+    let has_no_zeros 
