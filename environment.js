@@ -161,4 +161,4 @@ class Environment{
     }
 
     let has_no_zeros = true;
-    for(let i=0;i<this.board_length*
+    for(let i=0;i<this.board_length*this.boar
