@@ -163,3 +163,4 @@ class Environment{
     let has_no_zeros = true;
     for(let i=0;i<this.board_length*this.board_length;i+=1){
       if(test_board[i] == 0){
+        has_no_z
