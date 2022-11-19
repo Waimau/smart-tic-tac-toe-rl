@@ -167,4 +167,5 @@ class Environment{
         break;
       }
     }
-    if(
+    if(has_no_zeros){
+ 
