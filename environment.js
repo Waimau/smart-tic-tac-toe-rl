@@ -168,4 +168,4 @@ class Environment{
       }
     }
     if(has_no_zeros){
- 
+      thi
