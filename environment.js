@@ -166,4 +166,5 @@ class Environment{
         has_no_zeros = false;
         break;
       }
- 
+    }
+    if(
