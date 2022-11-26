@@ -169,3 +169,4 @@ class Environment{
     }
     if(has_no_zeros){
       this.ended = true;
+      return tru
