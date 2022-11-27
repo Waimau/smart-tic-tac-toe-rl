@@ -175,4 +175,4 @@ class Environment{
     return false;
   }
 
- 
+  check_if_playe
