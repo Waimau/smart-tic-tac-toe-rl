@@ -176,4 +176,4 @@ class Environment{
   }
 
   check_if_player_won(sum){
-    if(
+    if(sum==-3){
