@@ -175,4 +175,5 @@ class Environment{
     return false;
   }
 
-  check_if_playe
+  check_if_player_won(sum){
+    if(
