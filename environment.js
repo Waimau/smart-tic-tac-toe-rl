@@ -178,4 +178,5 @@ class Environment{
   check_if_player_won(sum){
     if(sum==-3){
       this.winner = -1;
-      r
+      return true;
+    }
