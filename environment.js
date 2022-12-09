@@ -180,4 +180,4 @@ class Environment{
       this.winner = -1;
       return true;
     }else if(sum==3){
-      t
+      this.winner =
