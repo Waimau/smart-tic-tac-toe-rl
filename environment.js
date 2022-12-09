@@ -179,4 +179,5 @@ class Environment{
     if(sum==-3){
       this.winner = -1;
       return true;
-    }else if(sum==3
+    }else if(sum==3){
+      t
