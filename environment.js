@@ -182,4 +182,7 @@ class Environment{
     }else if(sum==3){
       this.winner = 1;
       return true;
-  
+    }
+  }
+
+}
