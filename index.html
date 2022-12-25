@@ -88,3 +88,21 @@
                 <input type="text" id="input_agent1_explore_probability" placeholder="example: 0.05" value="0.05">
               </div>
               <div class="input-field col s12">
+                <label for="input_agent1_learning_rate">Agent 1 Learning Rate</label>
+                <input type="text" id="input_agent1_learning_rate" placeholder="example: 0.5" value="0.5">
+              </div>
+              <div class="input-field col s12">
+                <label for="input_agent2_explore_probability">Agent 2 Explore Probability</label>
+                <input type="text" id="input_agent2_explore_probability" placeholder="example: 0.05" value="0.05">
+              </div>
+              <div class="input-field col s12">
+                <label for="input_agent2_learning_rate">Agent 2 Learning Rate</label>
+                <input type="text" id="input_agent2_learning_rate" placeholder="example: 0.5" value="0.5">
+              </div>
+              <div class="col s6">
+                <button class="waves-effect waves-light btn" id="btn_train_agents" onclick="train_agents()">Train Agents</button>
+              </div>
+              <div class="col s6">
+                <button class="waves-effect waves-light btn" id="btn_agent_simulation" onclick="agent_simulation()">Simulation</button>
+              </div>
+            </div>
