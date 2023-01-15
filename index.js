@@ -30,3 +30,14 @@ async function play_game(p1, p2, show_ui=true, simulation=false){
   let current_agent = p1;
 
   for(let i=0;i<9;i++){
+    let action = current_agent.take_action(environment);
+
+    // console.log(current_agent.name, action, environment.get_state());
+    environment.grid_select(action, show_ui);
+
+    p1.update_state_history(environment.get_state());
+    p2.update_state_history(environment.get_state());
+
+    if(environment.ended){
+      break;
+    }
