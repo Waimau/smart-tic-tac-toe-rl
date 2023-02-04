@@ -50,3 +50,14 @@ async function play_game(p1, p2, show_ui=true, simulation=false){
 
     if(simulation){
       await sleep(1000);
+    }
+  }
+
+  p1.update(environment);
+  p2.update(environment);
+
+}
+
+function train_agents(){
+  input_agent1_explore_probability = $("#input_agent1_explore_probability").val();
+  input_agent1_learning_rate = $("#input_agent1_learning_rate").val();
