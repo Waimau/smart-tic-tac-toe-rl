@@ -41,3 +41,12 @@ async function play_game(p1, p2, show_ui=true, simulation=false){
     if(environment.ended){
       break;
     }
+
+    if(current_agent == p1){
+      current_agent = p2;
+    }else{
+      current_agent = p1;
+    }
+
+    if(simulation){
+      await sleep(1000);
