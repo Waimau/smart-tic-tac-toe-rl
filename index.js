@@ -66,3 +66,16 @@ function train_agents(){
   input_episodes = $("#input_episodes").val();
 
   agentA = new Agent(1, input_agent1_explore_probability, input_agent1_learning_rate);
+  agentB = new Agent(-1, input_agent2_explore_probability, input_agent2_learning_rate);
+
+  let episode = input_episodes;
+
+  let state_winner_triples = get_state_hash_and_winner(environment);
+
+  let V_list = initial_values(environment, state_winner_triples, agentA.name, agentB.name);
+  agentA.set_v(V_list[0]);
+  agentB.set_v(V_list[1]);
+
+  for(let i=0;i<episode;i++){
+    play_game(agentA, agentB, false);
+    environment.reset_game(true, false);
