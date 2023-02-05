@@ -61,3 +61,8 @@ async function play_game(p1, p2, show_ui=true, simulation=false){
 function train_agents(){
   input_agent1_explore_probability = $("#input_agent1_explore_probability").val();
   input_agent1_learning_rate = $("#input_agent1_learning_rate").val();
+  input_agent2_explore_probability = $("#input_agent2_explore_probability").val();
+  input_agent2_learning_rate = $("#input_agent2_learning_rate").val();
+  input_episodes = $("#input_episodes").val();
+
+  agentA = new Agent(1, input_agent1_explore_probability, input_agent1_learning_rate);
