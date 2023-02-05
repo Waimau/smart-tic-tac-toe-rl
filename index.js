@@ -79,3 +79,19 @@ function train_agents(){
   for(let i=0;i<episode;i++){
     play_game(agentA, agentB, false);
     environment.reset_game(true, false);
+  }
+
+  agentA.skill_level = episode;
+  agentB.skill_level = episode;
+
+  $(agent_skill_level).text(episode);
+  $(message).text("Agent trained and moved. It's your turn.");
+
+  console.log('train_agents completed');
+
+  play_with_agent();
+}
+
+function agent_simulation(){
+  $(message).text("Agents playing against each other");
+  environment.reset_game();
