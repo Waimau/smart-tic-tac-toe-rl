@@ -95,3 +95,15 @@ function train_agents(){
 function agent_simulation(){
   $(message).text("Agents playing against each other");
   environment.reset_game();
+  play_game(agentA, agentB, true, true);
+}
+
+function reset_game(){
+  environment.reset_game();
+  play_with_agent();
+  $(message).text("Game reset. It's your turn.");
+}
+
+function play_with_agent(){
+
+  agentA.set_eps(0);
