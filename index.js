@@ -120,3 +120,24 @@ function play_with_agent(){
   for(let i in agent_probability){
     let thisid = "#btn_ttt_prob"+i.toString();
     $(thisid).text(agent_probability[i]);
+  }
+
+  environment.grid_select(next_move);
+
+  agentA.update_state_history(environment.get_state());
+
+  if(environment.ended){
+    agentA.update(environment);
+    console.log('ended, winner', environment.winner);
+    if(environment.winner == 1){
+      $(message).text("Agent won. Reset game?");
+    }else if(environment.winner == -1){
+      $(message).text("You won! Reset game?");
+    }else{
+      $(message).text("Draw game. Reset game?");
+    }
+  }
+
+}
+
+function human_player_move(i){
