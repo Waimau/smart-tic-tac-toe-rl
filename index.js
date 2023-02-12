@@ -141,3 +141,15 @@ function play_with_agent(){
 }
 
 function human_player_move(i){
+
+  selected = environment.grid_select(i);
+  if (selected == false){
+    return false;
+  }
+
+  if(environment.ended){
+    agentA.update(environment);
+    console.log('ended, winner', environment.winner);
+    if(environment.winner == 1){
+      $(message).text("Agent won. Reset game?");
+    }else if(environment.winner == -1){
