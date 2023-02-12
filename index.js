@@ -153,3 +153,20 @@ function human_player_move(i){
     if(environment.winner == 1){
       $(message).text("Agent won. Reset game?");
     }else if(environment.winner == -1){
+      $(message).text("You won! Reset game?");
+    }else{
+      $(message).text("Draw game. Reset game?");
+    }
+  }else{
+    $(message).text("It's your turn");
+    play_with_agent();
+  }
+}
+
+function get_state_hash_and_winner(env, i=0, j=0){
+  let results = [];
+
+  let options = [0,-1,1];//[0, 1, -1];
+
+  for (var vi=0; vi<options.length; vi++) {
+    let v = options[vi];
