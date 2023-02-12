@@ -107,3 +107,16 @@ function reset_game(){
 function play_with_agent(){
 
   agentA.set_eps(0);
+
+  let action = agentA.take_action(environment, true);
+  let next_move = action[0];
+  strategy = action[1];
+
+  agent_probability = [0,0,0,0,0,0,0,0,0];
+  for(let i=0;i<action[2].length;i++){
+    agent_probability[action[2][i][0]] = (action[2][i][2] * 100).toFixed(1) + "%";
+  }
+
+  for(let i in agent_probability){
+    let thisid = "#btn_ttt_prob"+i.toString();
+    $(thisid).text(agent_probability[i]);
