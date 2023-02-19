@@ -199,3 +199,29 @@ function initial_values(env, state_winner_triples, p1, p2){
   let V2 = [];
 
   let V = [];
+  for(let i=0;i<state_winner_triples.length;i++){
+    V.push(0);
+  }
+
+  for(let i=0; i<state_winner_triples.length;i++){
+    let v1 = 0.5;
+    let v2 = 0.5;
+    let state_winner_triple = state_winner_triples[i];
+    let state = state_winner_triple[0];
+    let winner = state_winner_triple[1];
+    let ended = state_winner_triple[2];
+
+    if(ended == true){
+      if(winner == p1){
+        v1 = 1;
+        v2 = 0;
+      }else{
+        v1 = 0;
+        v2 = 1;
+      }
+    }
+    V1[state] = v1;
+    V2[state] = v2;
+  }
+  // console.log('initialV',counter);
+  return [V1,V2]
