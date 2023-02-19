@@ -170,3 +170,14 @@ function get_state_hash_and_winner(env, i=0, j=0){
 
   for (var vi=0; vi<options.length; vi++) {
     let v = options[vi];
+    env.set_cell(i, j, v);
+    // console.log(i, j, v, env.board);
+
+    if (j == 2){
+      if (i == 2){
+        let state = env.get_state();
+        let ended = env.is_game_over(env.board);
+        let winner = env.winner;
+        results.push([state, winner, ended])
+      }
+      else{
