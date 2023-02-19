@@ -187,3 +187,15 @@ function get_state_hash_and_winner(env, i=0, j=0){
     else{
       results = results.concat(get_state_hash_and_winner(env, i, (j+1)));
     }
+
+  }
+  return results;
+  // env.reset_game();
+}
+
+function initial_values(env, state_winner_triples, p1, p2){
+
+  let V1 = [];
+  let V2 = [];
+
+  let V = [];
