@@ -181,3 +181,9 @@ function get_state_hash_and_winner(env, i=0, j=0){
         results.push([state, winner, ended])
       }
       else{
+        results = results.concat(get_state_hash_and_winner(env, (i+1), 0));
+      }
+    }
+    else{
+      results = results.concat(get_state_hash_and_winner(env, i, (j+1)));
+    }
