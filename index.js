@@ -248,3 +248,11 @@ function generate_epsilon_greedy_charts(){
   let agento_zero_graph_1_win=[];
   let agento_zero_graph_1_lost=[];
   let agento_zero_graph_2_win=[];
+
+  for(let i=0; i<chartdata_agent_x.length; i++){
+    x_all.push(chartdata_agent_x[i].eps);
+
+    agentx_graph_1_win.push(chartdata_agent_x[i].counter[0]);
+    agentx_graph_1_lost.push(chartdata_agent_x[i].counter[1]);
+
+    agento_graph_1_win.push(chartdata_agent_o[i].counter[0]);
