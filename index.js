@@ -274,3 +274,14 @@ function generate_epsilon_greedy_charts(){
   Plotly.plot( graph_plot_1, [{ x: x_all, y: agentx_graph_1_lost, name: "Lost" }], { margin: { t: 0 } } );
 
   let graph_plot_2 = document.getElementById('demo_agento_graph_1');
+  Plotly.newPlot( graph_plot_2, [{ x: x_all, y: agento_graph_1_win, name: "Won" }], { margin: { t: 0 } } );
+  Plotly.plot( graph_plot_2, [{ x: x_all, y: agento_graph_1_lost, name: "Lost" }], { margin: { t: 0 } } );
+
+  let graph_plot_3 = document.getElementById('demo_agento_graph_1_zero');
+  Plotly.newPlot( graph_plot_3, [{ x: x_all, y: agento_zero_graph_1_win, name: "Won" }], { margin: { t: 0 } } );
+  Plotly.plot( graph_plot_3, [{ x: x_all, y: agento_zero_graph_1_lost, name: "Lost" }], { margin: { t: 0 } } );
+
+}
+
+train_agents();
+generate_epsilon_greedy_charts();
