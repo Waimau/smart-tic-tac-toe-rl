@@ -256,3 +256,21 @@ function generate_epsilon_greedy_charts(){
     agentx_graph_1_lost.push(chartdata_agent_x[i].counter[1]);
 
     agento_graph_1_win.push(chartdata_agent_o[i].counter[0]);
+    agento_graph_1_lost.push(chartdata_agent_o[i].counter[1]);
+
+    agento_zero_graph_1_win.push(chartdata_agent_o_zero[i].counter[0]);
+    agento_zero_graph_1_lost.push(chartdata_agent_o_zero[i].counter[1]);
+
+    if(i<=20){
+      x_initial.push(chartdata_agent_x[i].eps);
+      agentx_graph_2_win.push(chartdata_agent_x[i].counter[0]);
+      agento_graph_2_win.push(chartdata_agent_o[i].counter[0]);
+      agento_zero_graph_2_win.push(chartdata_agent_o_zero[i].counter[0]);
+    }
+  }
+
+  let graph_plot_1 = document.getElementById('demo_agentx_graph_1');
+  Plotly.newPlot( graph_plot_1, [{ x: x_all, y: agentx_graph_1_win, name: "Won" }], { margin: { t: 0 } } );
+  Plotly.plot( graph_plot_1, [{ x: x_all, y: agentx_graph_1_lost, name: "Lost" }], { margin: { t: 0 } } );
+
+  let graph_plot_2 = document.getElementById('demo_agento_graph_1');
