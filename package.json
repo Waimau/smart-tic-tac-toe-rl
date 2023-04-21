@@ -2,4 +2,5 @@
   "name": "reinforcement-learning-tic-tac-toe",
   "version": "1.0.0",
   "description": "A reinforcement learning algorithm for agents to learn the tic-tac-toe, using the value function",
-  "main
+  "main": "index.js",
+  "s
