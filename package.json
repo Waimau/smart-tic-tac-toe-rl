@@ -5,4 +5,4 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "push": "git push https://github.com/ji
+    "push": "git push https://github.com/jinglesco
