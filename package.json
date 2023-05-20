@@ -5,4 +5,6 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "push": "git push https://github.com/jinglescode/reinforcement-learning-tic-tac-toe.git
+    "push": "git push https://github.com/jinglescode/reinforcement-learning-tic-tac-toe.git master"
+  },
+  
