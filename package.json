@@ -8,4 +8,5 @@
     "push": "git push https://github.com/jinglescode/reinforcement-learning-tic-tac-toe.git master"
   },
   "repository": {
-    "ty
+    "type": "git",
+    "url": "
